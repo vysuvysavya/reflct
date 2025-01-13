@@ -39,7 +39,6 @@ export default function DeleteCollectionDialog({
       );
       router.push("/dashboard");
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [deletedCollection, isDeleting]);
 
   const handleDelete = async () => {
